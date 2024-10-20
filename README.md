@@ -1,9 +1,6 @@
 # Fine-Grained-Spoiler-Detection-from-Large-Scale-Review-Corpora
 
-<div style="text-align: justify;">
-
 ## Description:
-<p style="text-align: justify;">
 In an age where media consumption is at an all-time high, the prevalence of book spoilers on review websites can significantly detract from the user experience. This project aims to develop an automated system for detecting spoiler sentences in large-scale text reviews, framing the task as a sentence-level binary classification problem.
 
 Utilizing advanced machine learning techniques, we experiment with various models, including logistic regression, multi-layer perceptrons, random forests, and transfer learning approaches with large language models such as BERT and Hierarchical Attention Networks (HAN).
@@ -17,9 +14,16 @@ An 8% increase in Area Under Curve (AUC) scores with HANs compared to traditiona
 By focusing on AUC as our primary evaluation metric, we navigate the challenges posed by class imbalance within our dataset, implementing various strategies, including class weightings, sampling techniques, and diverse loss functions. Our findings reveal that the logistic regression model outperforms others, achieving a test AUC of 0.785 while highlighting the importance of carefully managing class imbalance.
 
 This project lays the groundwork for future enhancements, including the potential integration of user and book metadata, which could further enrich our predictive capabilities.
-</p>
 
 ![image](https://user-images.githubusercontent.com/120504031/222993945-634d9228-17c1-4c4c-87b8-d79e318fffa0.png)
+
+## Table of Contents
+
+1. [Installation](#installation)
+2. [Features](#features)
+3. [Key Findings](#conclusion)
+4. [Contributing](#contributing)
+5. [License](#license)
 
 ## Installation
 To set up the Advanced Spoiler Detection on Large-Scale Text Reviews project, follow these steps:
@@ -122,4 +126,6 @@ Akash Sundar - aka2000@seas.upenn.edu
 Shikha Reddy - shikham@seas.upenn.edu  
 Thank you for your interest in improving our project!
 
-</div>
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
